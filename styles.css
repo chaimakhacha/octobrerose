@@ -1,0 +1,77 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2em;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding:10px;
+}
+
+#section1 {
+    background-color: white; 
+}
+
+#section2 {
+    background-color: #f4d5da; 
+}
+
+#section3 {
+    background-color: #ffcad3; 
+}
+
+#section4 {
+    background-color: #ffdde3; 
+}
+
+#section5 {
+    background-color: #fff1f4; 
+}
+h1{
+    font-size: 100px;
+    font-family: 'Georgia', serif;
+    color: black; 
+    font-weight: bolder;
+    position:center;
+}
+
+.heading2 {
+    font-family: 'Georgia', serif; 
+    font-size: 50px;
+    color: #D91656; 
+    margin: 0; 
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    padding: 2px; /* Add padding for spacing */
+}
+
+.paragraph {
+    font-size: 22px; 
+    color: black; 
+    line-height: 1.5; 
+    font-family:cursive;
+    text-align: center;
+}
+.list{
+    font-size: 22px;
+    color: black; 
+    line-height: 1.5; 
+    font-family: cursive;
+}
+.circular{
+    border-radius: 100%;
+
+}
